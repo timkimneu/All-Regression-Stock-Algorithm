@@ -151,3 +151,10 @@ if r_income.status_code == 200:
     fin_df = pd.DataFrame(fin_info)
 
     print(fin_df)
+
+# Y = percent return over 1 month
+# sklearn.train_test_split(80, 20)
+# x_train, y_train, x_test, y_test = sklearn.train_test_split(data, test=20%)
+# knn = sklearn.KNearestNeightbors(n_neightbors=5)
+# knn.fit(X,y)
+# y_predict = knn.predict(x_test)
